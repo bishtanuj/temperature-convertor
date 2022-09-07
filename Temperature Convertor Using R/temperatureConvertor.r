@@ -69,7 +69,7 @@ fahrenheit_kelvin <- function() {
 choice <- 1
 while (choice != 7) {
     print("*** Temperature Convertor ***")
-    print("1. Celcius to Fahrenheit")
+    print("1.   Celcius to Fahrenheit")
     print("2.   Fahrenheit to Celcius")
     print("3.   Kelvin to Celcius")
     print("4.   Celcius to Kelvin")
