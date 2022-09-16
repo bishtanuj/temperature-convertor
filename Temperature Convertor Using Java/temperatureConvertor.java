@@ -4,6 +4,7 @@ public class temperatureConvertor {
     
     // function to convert celcius to fahrenheit
     public static void celciusFahrenheit() {
+        
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the temperature in celcius: ");
         float celcius = input.nextFloat();
@@ -11,7 +12,7 @@ public class temperatureConvertor {
         float fahrenheit = ((celcius * 9) / 5) + 32;
         System.out.println("Temperature in Fahrenheit: "+ fahrenheit);
         
-        input.close();
+     
     }
 
     // function to convert fahrenheit to celcius
@@ -23,7 +24,7 @@ public class temperatureConvertor {
         float celcius = ((fahrenheit - 32) * 5) / 9;
         System.out.println("Temperature in Celcius: "+ celcius);
         
-        input.close();
+        
     }
     
 
@@ -36,7 +37,7 @@ public class temperatureConvertor {
         double celcius = (kelvin - 273.15);
         System.out.println("Temperature in Celcius: "+ celcius);
         
-        input.close();
+        
     }
 
     // function to convert celcius to kelvin
@@ -48,7 +49,7 @@ public class temperatureConvertor {
         double kelvin = (celcius + 273.15);
         System.out.println("Temperature in Kelvin: "+ kelvin);
         
-        input.close();
+       
     }
 
     // function to convert kelvin to fahrenheit
@@ -60,7 +61,7 @@ public class temperatureConvertor {
         double fahrenheit = (((kelvin - 273.15) * 9) / 5) + 32;
         System.out.println("Temperature in Fahrenheit: "+ fahrenheit);
         
-        input.close();
+        
     }
 
     // function to convert fahrenheit to kelvin
@@ -72,7 +73,7 @@ public class temperatureConvertor {
         double kelvin = (((fahrenheit - 32) * 5) / 9) + 273.15;
         System.out.println("Temperature in Kelvin: "+ kelvin);
         
-        input.close();
+      
     }
 
     public static void main(String[] args) {
@@ -118,6 +119,6 @@ public class temperatureConvertor {
                     System.out.println("!! Enter Right Choice !!");
             }
         }
-        input.close();
+        
     }
 }
